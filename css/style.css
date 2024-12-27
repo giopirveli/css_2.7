@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainDiv{
+    margin: 96px 66px; 
+}
+.mainDiv >*{
+    margin-bottom: 56px;
+}
+header >*{
+    margin-bottom: 12px;
+}
+header{
+    text-align: center;
+}
+header span{
+    color: #002AFE;
+    font-size: 16px;
+    font-weight: 600;
+}
+header h1{
+    color: #181D27;
+font-size: 48px;
+font-weight: 600;
+}
+header p{
+    color: #535862;
+font-size: 20px;
+}
+main{
+    width: fit-content;
+    margin: 0 auto;
+}
+main >*{
+    margin-bottom: 56px;
+}
+.ordinaryConteiner{
+    display: inline-block;
+    max-width: 584px;
+    vertical-align: middle;
+    margin-left: 5vw;
+}
+.ordinaryBox img{
+vertical-align: middle;
+}
+.textBox >*{
+    margin-bottom: 12px;
+}
+.textBox span{
+    display: block;
+    color: #6941C6;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px; 
+}
+.textBox h2{
+    color: #181D27;
+font-size: 24px;
+font-weight: 600;
+line-height: 32px; /* 133.333% */
+}
+.textBox p{
+color: #535862;
+font-size: 16px;
+line-height: 24px; /* 150% */
+}
+.personName >*{
+    display: block;
+}
+.personInfo >*{
+    display: inline-block;
+    vertical-align: middle;
+}
